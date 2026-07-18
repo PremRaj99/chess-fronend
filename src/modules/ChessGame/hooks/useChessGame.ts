@@ -24,7 +24,7 @@ export interface GameActions {
   resetGame: () => void;
 }
 
-const INITIAL_TIME = 60; // 10 minutes in seconds
+const INITIAL_TIME = 600; // 10 minutes in seconds
 
 function findKingSquare(chess: Chess, color: Color): Square | null {
   const board = chess.board();
