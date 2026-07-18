@@ -38,7 +38,7 @@ A sleek, responsive, and feature-rich interactive Chess web application built wi
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/PremRaj99/chess-fronend.git
    cd chess-fronend
    ```
 
