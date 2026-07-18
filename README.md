@@ -36,12 +36,14 @@ A sleek, responsive, and feature-rich interactive Chess web application built wi
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone <repository-url>
    cd chess-fronend
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
@@ -56,15 +58,15 @@ A sleek, responsive, and feature-rich interactive Chess web application built wi
 
 ## 📜 Available Scripts
 
-| Command | Description |
-|---|---|
-| `npm run dev` | Starts the Vite development server with Hot Module Replacement (HMR). |
-| `npm run build` | Runs TypeScript check (`tsc -b`) and builds production assets into `dist`. |
-| `npm run preview` | Previews the production build locally. |
-| `npm run lint` | Lints code using ESLint. |
-| `npm run format` | Formats all code using Prettier. |
-| `npm run typecheck` | Runs TypeScript type checker without emitting files. |
-| `npm run prepare` | Initializes Husky git hooks. |
+| Command             | Description                                                                |
+| ------------------- | -------------------------------------------------------------------------- |
+| `npm run dev`       | Starts the Vite development server with Hot Module Replacement (HMR).      |
+| `npm run build`     | Runs TypeScript check (`tsc -b`) and builds production assets into `dist`. |
+| `npm run preview`   | Previews the production build locally.                                     |
+| `npm run lint`      | Lints code using ESLint.                                                   |
+| `npm run format`    | Formats all code using Prettier.                                           |
+| `npm run typecheck` | Runs TypeScript type checker without emitting files.                       |
+| `npm run prepare`   | Initializes Husky git hooks.                                               |
 
 ---
 
